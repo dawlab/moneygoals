@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD1728DC29217F7C0080E47F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1728DB29217F7C0080E47F /* DetailViewController.swift */; };
 		BDBCFBF029214C0300AFE602 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBCFBEF29214C0300AFE602 /* AppDelegate.swift */; };
 		BDBCFBF229214C0300AFE602 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBCFBF129214C0300AFE602 /* SceneDelegate.swift */; };
-		BDBCFBF429214C0300AFE602 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBCFBF329214C0300AFE602 /* ViewController.swift */; };
+		BDBCFBF429214C0300AFE602 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBCFBF329214C0300AFE602 /* ListViewController.swift */; };
 		BDBCFBF729214C0300AFE602 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBCFBF529214C0300AFE602 /* Main.storyboard */; };
 		BDBCFBFA29214C0300AFE602 /* MoneyGoals.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDBCFBF829214C0300AFE602 /* MoneyGoals.xcdatamodeld */; };
 		BDBCFBFC29214C0500AFE602 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDBCFBFB29214C0500AFE602 /* Assets.xcassets */; };
@@ -17,10 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD1728DB29217F7C0080E47F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		BDBCFBEC29214C0300AFE602 /* MoneyGoals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyGoals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDBCFBEF29214C0300AFE602 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDBCFBF129214C0300AFE602 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BDBCFBF329214C0300AFE602 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDBCFBF329214C0300AFE602 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		BDBCFBF629214C0300AFE602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BDBCFBF929214C0300AFE602 /* MoneyGoals.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MoneyGoals.xcdatamodel; sourceTree = "<group>"; };
 		BDBCFBFB29214C0500AFE602 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -39,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD1728DA29217F670080E47F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BDBCFBF329214C0300AFE602 /* ListViewController.swift */,
+				BD1728DB29217F7C0080E47F /* DetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		BDBCFBE329214C0300AFE602 = {
 			isa = PBXGroup;
 			children = (
@@ -60,7 +71,7 @@
 			children = (
 				BDBCFBEF29214C0300AFE602 /* AppDelegate.swift */,
 				BDBCFBF129214C0300AFE602 /* SceneDelegate.swift */,
-				BDBCFBF329214C0300AFE602 /* ViewController.swift */,
+				BD1728DA29217F670080E47F /* Controllers */,
 				BDBCFBF529214C0300AFE602 /* Main.storyboard */,
 				BDBCFBFB29214C0500AFE602 /* Assets.xcassets */,
 				BDBCFBFD29214C0500AFE602 /* LaunchScreen.storyboard */,
@@ -141,8 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDBCFBF429214C0300AFE602 /* ViewController.swift in Sources */,
+				BDBCFBF429214C0300AFE602 /* ListViewController.swift in Sources */,
 				BDBCFBFA29214C0300AFE602 /* MoneyGoals.xcdatamodeld in Sources */,
+				BD1728DC29217F7C0080E47F /* DetailViewController.swift in Sources */,
 				BDBCFBF029214C0300AFE602 /* AppDelegate.swift in Sources */,
 				BDBCFBF229214C0300AFE602 /* SceneDelegate.swift in Sources */,
 			);
