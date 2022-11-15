@@ -34,14 +34,14 @@ class ListViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return goal.count
     }
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = UITableViewCell(style: .default, reuseIdentifier: "GoalCell")
         let goal = goal[indexPath.row]
         
         cell.textLabel?.text = goal
-        
-        tableView.cellForRow(at: indexPath)?.accessoryType = .disclosureIndicator
+        cell.accessoryType = UITableViewCell.AccessoryType.disclosureIndicator
         
         return cell
     }
@@ -51,6 +51,7 @@ class ListViewController: UITableViewController {
         tableView.deselectRow(at: indexPath, animated: true)
         performSegue(withIdentifier: "showDetailsSegue", sender: self)
     }
+    
 
 
 }
