@@ -9,7 +9,7 @@ import UIKit
 
 class ListViewController: UITableViewController {
     
-    let goal = ["Holiday", "Dacia Duster", "New iPhone"]
+    let goal = ["Holiday", "New car", "New iPhone"]
     let detailsSegueIdentifier = "ShowDetailsSegue"
     
     override func viewDidLoad() {
